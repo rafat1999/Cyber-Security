@@ -23,7 +23,7 @@ def decrypt(cipher_text, key=None):
         new =[]
 
     for letter in cipher_text:
-        new.append(key[alpha.index(letter)])
+        new.append(alpha[key.index(letter)])
     return "".join(new)
 
 plain_text = input("Enter the text: ")
