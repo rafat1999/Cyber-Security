@@ -1,3 +1,6 @@
+# This is use for Ceasar Cipher when we input only 3 & other case it's work like as a Shift Cipher 
+
+
 def encryption(plain_text, key):
     cipher_test = ""
 
@@ -44,3 +47,8 @@ print("")
 print("Your endrypted massage is: " , cipher_text)
 print("Your decrypted key is: " , key)
 print("Your Decripted masssage is: " , main_text)
+
+
+# S.H. Rafat
+# B.Sc Engg in CSE
+# Bangladesh Army University of Science and Technology(BAUST), Saidpur Cantonment, Saidpur
