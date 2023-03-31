@@ -164,7 +164,7 @@ void generated_key(string key)
             round_key += combine_key[pc2[i] - 1];
         }
         round_keys[i] = round_key;
-        cout<< "Key "<< i+1<< ": "<<round_keys[i]<<endl;
+       // cout<< "Key "<< i+1<< ": "<<round_keys[i]<<endl;
     }
 
 }
@@ -352,5 +352,17 @@ int main()
     cout<< "Plain Text: " << plain_text<<endl;
     string cipher_text = DES();
     cout<< "The Cipher text is: "<< cipher_text<< endl;
-
+    cout << "\n\n Here I only implement the Encryption using DES algotiyhm."<<endl;
+    cout << "S.H. Rafat"<<endl;
+    cout << "B.sc Engg in CSE"<<endl;
+    cout << "Dept. Of CSE"<<endl;
+    cout << "DBangladesh Army University of Science and Technology (BAUST)"<<endl;
 }
+
+
+/// Here I only implement the Encryption using DES algotiyhm.
+/// S.H. Rafat
+/// B.sc Engg in CSE
+/// Dept. Of CSE
+/// Bangladesh Army University of Science and Technology (BAUST)
+ 
