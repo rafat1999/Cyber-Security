@@ -1,0 +1,49 @@
+Date:  25-July-2024
+Topic: Scrpit Writing in Linux.
+
+
+In this portion we learn about the linux shell script and how to create and execute it. Now, Our first question is that.
+
+1) What is Script? 
+	-> Basically a script is program which is execute on the linux terminal. 
+	-> On the word of online:  A shell script is a computer program designed to be run by the Unix/Linux shell which could be one of the following 
+
+		-> The Bourne Shell
+		-> The C Shell
+		-> The Korn Shell
+		-> The GNU Bourne-Again Shell
+
+2) What is the file extensions for the shell script?
+	-> The shall script basically know as a "Bash Script". From those word we took the last two digit of the word "Bash". And finally we got our script extension. That is ".sh"
+
+		Example:  test.sh (It's a script file example).
+
+3) How can we Create and run the script file on our Command?
+	-> For writing a script into our linux terminal. At first we create a shell script file. Here the file Name is: "test.sh"
+	     Now open the file into any of editor(graphical or command line). Here I use vim editor. Now open the file by writing command
+			-> vi test.sh; Then press ENTER and press "i" for insert text. Write your command now, here I write the following 
+			   commands on the terminal
+
+				echo This is my first script.
+				touch <filename.txt>  [Replace the file name on your choice.]
+				ls
+				chmod 777 <file_name> [Replace the file name which you create before.]
+				echo The script is end here...
+	
+	Now press on "esc" key then press " shift + ; " key and type "wq". [Here, w -> Write & q-> Quit]. Then press "Enter". 
+	
+	Now change the file permission. Here we give the "execute permission" for the user. So our command is that:
+		-> chomd 744 <file_name>  or chmod u+x <file_name>
+
+	Run your first script
+		-> ./test.sh
+
+
+***ENJOY WITH YOUR FIRST SHELL SCRIPT.***
+
+ALL WRITE RESERVED BY:
+	ENGG. SHIHAB HOSSEN RAFAT
+	B.Sc ENGG. IN CSE(BAUST)
+	CONTACT:  +880 1726732321 (EMERGENCY CALLS, & WHATS APP ONLY)
+			  shihab.rafat99@gmail.com
+			
