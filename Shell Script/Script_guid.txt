@@ -40,10 +40,12 @@ In this portion we learn about the linux shell script and how to create and exec
 
 
 ***ENJOY WITH YOUR FIRST SHELL SCRIPT.***
+*** This file is changeable by it's author.***
 
 ALL WRITE RESERVED BY:
 	ENGG. SHIHAB HOSSEN RAFAT
 	B.Sc ENGG. IN CSE(BAUST)
 	CONTACT:  +880 1726732321 (EMERGENCY CALLS, & WHATS APP ONLY)
-			  shihab.rafat99@gmail.com
+		  shihab.rafat99@gmail.com
+		  www.linkedin.com/in/shihab-hossen-rafat-01923321a	
 			
